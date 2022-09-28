@@ -1,0 +1,1 @@
+# rust_proc_macro_template
