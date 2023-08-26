@@ -9,7 +9,11 @@ pub fn (input: proc_macro::TokenStream) -> proc_macro::TokenStream {
         syn::Data::Struct(_) => panic!("does not work on structs!"),
         syn::Data::Enum(_) => panic!("does not work on enums!"),
     }
-    let gen = quote::quote! {};
-    //println!("{gen}");
+    let gen = quote::quote! {
+        
+    };
+    // if ident == "" {
+    //     println!("{gen}");
+    // }
     gen.into()
 }
