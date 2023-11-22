@@ -9,3 +9,6 @@ proc-macro = true
 
 [dependencies]
 proc_macro_helpers = {path = "../proc_macro_helpers"}
+
+[lints]
+workspace = true
